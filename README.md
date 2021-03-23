@@ -1,7 +1,3 @@
-{% if cookiecutter.devops_organisation != '' %}
-[![Build Status](https://dev.azure.com/{{cookiecutter.devops_organisation}}/{{cookiecutter.repo_name}}/_apis/build/status/equinor.{{cookiecutter.repo_name}}?branchName=master)](https://dev.azure.com/{{cookiecutter.devops_organisation}}/{{cookiecutter.repo_name}}/_build/latest?definitionId=1&branchName=master)
-{% endif %}
-
 # {{cookiecutter.project_name}}
 
 {{cookiecutter.project_description}}
@@ -29,8 +25,8 @@ When distributing your module, you can create a Python egg with the command `pyt
 
 NOTE: When working in the project notebooks from within the Equinor network, you may need to include the lines below if your proxy is not otherwise setup.
 
-`os.environ['HTTP_PROXY']="http://www-proxy.statoil.no:80"`<br />
-`os.environ['HTTPS_PROXY']="http://www-proxy.statoil.no:80"`
+`os.environ['HTTP_PROXY']="http://www-proxy.example.dk:80"`<br />
+`os.environ['HTTPS_PROXY']="http://www-proxy.example.dk:80"`
 
 ## Using the Python Conda environment
 
