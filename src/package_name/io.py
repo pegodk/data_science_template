@@ -6,7 +6,6 @@ sources and to have a single location where file references are held.
 """
 import os
 import pandas as pd
-from statoilds import datalake
 
 
 class IO:

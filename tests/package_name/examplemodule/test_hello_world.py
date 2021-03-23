@@ -6,7 +6,7 @@ import sys
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..', 'src')))  # noqa
 
 # from pandas.util.testing import assert_frame_equal
-from {{cookiecutter.package_name}} import examplemodule
+from src.package_name import examplemodule
 
 
 def test_something():
